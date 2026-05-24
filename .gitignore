@@ -1,0 +1,21 @@
+# API credentials — NEVER commit these
+.env
+*.env
+
+# Full dataset (too large for GitHub, submit sample only)
+data/videos.csv
+data/comments.csv
+data/channels.csv
+
+# Keep the sample folder
+!data/sample/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
